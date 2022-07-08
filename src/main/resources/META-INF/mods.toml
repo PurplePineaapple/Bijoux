@@ -8,24 +8,24 @@ license="All rights reserved"
 
 modId="bijoux" #mandatory
 
-version="1.0-development" #mandatory
+version="${file.jarVersion}" #mandatory
 
 displayName="Bijoux Mod" #mandatory
 
-#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+updateJSONURL="https://github.com/PurplePineaapple/Bijoux/blob/main/src/main/resources/META-INF/updateChecker.json" #optional
 
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://github.com/PurplePineaapple/Bijoux" #optional
 
 logoFile="examplemod.png" #optional
 
-credits="Made for PurplePreztle :)" #optional
+credits="Made for and with PurplePreztle :)" #optional
 
 authors="PurplePineapple" #optional
 
 description='''
-Bijoux is a mod that adds to and enhances the overall experience of mining by adding a variety of gems.
+Bijoux is a mod that adds to and enhances the overall experience of mining by adding a variety of gems, metals, and materials.
 
-***This is release is in heavy development and features may break and/or not work at all. This version should not be played, except for testing. Most of important of all, do not show to PurplePretzle--its a secret..shhh***
+***This is release is in heavy development and features may break and/or not work at all. This version should not be played, except for testing. ***
 
 '''
 

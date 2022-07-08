@@ -1,7 +1,26 @@
 {
-  "item.bijoux.ruby": "Ruby",
+  "block.bijoux.aquamarine_ore": "Aquamarine Ore",
+  "block.bijoux.platinum_ore": "Platinum Ore",
+  "block.bijoux.rose_quartz_ore": "Rose Quartz Ore",
+  "block.bijoux.ruby_ore": "Ruby Ore",
   "item.bijoux.aquamarine": "Aquamarine",
-  "itemGroup.precious_stones": "Precious Stones",
-  "itemGroup.semi_precious_stones": "Semi-Precious Stones"
+  "item.bijoux.platinum_bar": "Platinum Bar",
+  "item.bijoux.raw_aquamarine": "Raw Aquamarine",
+  "item.bijoux.raw_rose_quartz": "Raw Rose Quartz",
+  "item.bijoux.raw_ruby": "Raw Ruby",
+  "item.bijoux.rose_quartz": "Rose Quartz",
+  "item.bijoux.ruby": "Ruby",
+  "item.bijoux.ruby_axe": "Ruby Axe",
+  "item.bijoux.ruby_hoe": "Ruby Hoe",
+  "item.bijoux.ruby_pickaxe": "Ruby Pickaxe",
+  "item.bijoux.ruby_shovel": "Ruby Shovel",
+  "item.bijoux.ruby_sword": "Ruby Sword",
+  "itemGroup.blocks": "Bijoux Blocks",
+  "itemGroup.materials": "Bijoux Materials",
+  "itemGroup.tools_armor": "Bijoux Tools/Armor",
+  "item.bijoux.ruby_helmet": "Ruby Helmet",
+  "item.bijoux.ruby_chestplate": "Ruby Chestplate",
+  "item.bijoux.ruby_leggings": "Ruby Leggings",
+  "item.bijoux.ruby_boots": "Ruby Boots"
 
 }
