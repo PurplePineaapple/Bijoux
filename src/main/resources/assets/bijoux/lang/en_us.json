@@ -11,16 +11,16 @@
   "item.bijoux.rose_quartz": "Rose Quartz",
   "item.bijoux.ruby": "Ruby",
   "item.bijoux.ruby_axe": "Ruby Axe",
+  "item.bijoux.ruby_boots": "Ruby Boots",
+  "item.bijoux.ruby_chestplate": "Ruby Chestplate",
+  "item.bijoux.ruby_helmet": "Ruby Helmet",
   "item.bijoux.ruby_hoe": "Ruby Hoe",
+  "item.bijoux.ruby_leggings": "Ruby Leggings",
   "item.bijoux.ruby_pickaxe": "Ruby Pickaxe",
   "item.bijoux.ruby_shovel": "Ruby Shovel",
   "item.bijoux.ruby_sword": "Ruby Sword",
   "itemGroup.blocks": "Bijoux Blocks",
   "itemGroup.materials": "Bijoux Materials",
-  "itemGroup.tools_armor": "Bijoux Tools/Armor",
-  "item.bijoux.ruby_helmet": "Ruby Helmet",
-  "item.bijoux.ruby_chestplate": "Ruby Chestplate",
-  "item.bijoux.ruby_leggings": "Ruby Leggings",
-  "item.bijoux.ruby_boots": "Ruby Boots"
+  "itemGroup.tools_armor": "Bijoux Tools/Armor"
 
 }
