@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "item": "bijoux:platinum_ore"
+          "name": "bijoux:platinum_ore"
         }
       ]
     }
