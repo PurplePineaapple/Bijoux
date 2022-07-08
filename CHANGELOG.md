@@ -17,6 +17,21 @@ All notable versions of this project will be documented here.
   - Ruby Block
 - updateChecker.json to be fixed
 
+## [1.1-1.18.2-DEV] - 2022-07-08 - Minor Fixes
+### Overview
+`1.1-1.18.2-DEV` fixes a couple bugs found in the previous version.
+### Fixed
+- Fixed [#1](https://github.com/PurplePineaapple/Bijoux/issues/1) - `rose_quartz_ore.json` blockstate
+- Fixed [#2](https://github.com/PurplePineaapple/Bijoux/issues/2) - `pickaxe.json`, `needs_diamond_tool.json`, and `needs iron_tool.json`
+- Fixed [#4](https://github.com/PurplePineaapple/Bijoux/issues/4) - `platinum_ore.json` loot table
+- Could not reproduce [#3](https://github.com/PurplePineaapple/Bijoux/issues/3) - Seems to be working properly
+### Changed
+- Changed ruby ore texture; was not centered properly along the y-axis - `ruby.png`
+- Changed version number in `build.gradle` to be up-to-date with this version
+### Added 
+- Added`ruby512_curseforge.png` - File logo for CurseForge page (512x512)
+
+==== END OF `1.1-1.18.2-DEV` CHANGELOG====
 ## [1.0-1.18.2-DEV] - 2022-07-08
 ### Added
  - Added Gemstones
@@ -46,4 +61,7 @@ All notable versions of this project will be documented here.
    - Raw Ruby
 ### Broken
 - Update Checker not working properly
+
+==== END OF `1.0-1.18.2-DEV` CHANGELOG====
+
 
