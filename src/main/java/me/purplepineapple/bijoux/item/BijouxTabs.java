@@ -1,7 +1,7 @@
-package me.purplepineapple.bijoux.core;
+package me.purplepineapple.bijoux.item;
 
-import me.purplepineapple.bijoux.core.registry.RegisterBlocks;
-import me.purplepineapple.bijoux.core.registry.RegisterItems;
+import me.purplepineapple.bijoux.registry.BijouxBlocks;
+import me.purplepineapple.bijoux.registry.BijouxItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
@@ -12,7 +12,7 @@ public class BijouxTabs {
         @Override
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(RegisterBlocks.PLATINUM_ORE.get());
+            return new ItemStack(BijouxBlocks.PLATINUM_ORE.get());
         }
     };
 
@@ -20,7 +20,7 @@ public class BijouxTabs {
         @Override
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(RegisterItems.PLATINUM_BAR.get()); // Placeholder until Textures are complete
+            return new ItemStack(BijouxItems.PLATINUM_BAR.get()); // Placeholder until Textures are complete
         }
     };
 
@@ -28,7 +28,7 @@ public class BijouxTabs {
         @Override
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(RegisterItems.RUBY_HOE.get());
+            return new ItemStack(BijouxItems.RUBY_HOE.get());
         }
     };
 

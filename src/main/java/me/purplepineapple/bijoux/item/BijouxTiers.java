@@ -1,6 +1,6 @@
-package me.purplepineapple.bijoux.common.item;
+package me.purplepineapple.bijoux.item;
 
-import me.purplepineapple.bijoux.core.registry.RegisterItems;
+import me.purplepineapple.bijoux.registry.BijouxItems;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
@@ -8,9 +8,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ToolTiers implements Tier {
+public enum BijouxTiers implements Tier {
     RUBY(3, 2000, 9.0F, 3.5F, 22, () -> {
-        return Ingredient.of(new ItemStack(RegisterItems.RUBY.get()));
+        return Ingredient.of(new ItemStack(BijouxItems.RUBY.get()));
     });
 
 
@@ -21,7 +21,7 @@ public enum ToolTiers implements Tier {
     private final int enchantmentValue;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-    private ToolTiers(int level, int uses, float speed, float damage, int enchantmentValue, Supplier<Ingredient> repairIngredient) {
+    private BijouxTiers(int level, int uses, float speed, float damage, int enchantmentValue, Supplier<Ingredient> repairIngredient) {
         this.level = level;
         this.uses = uses;
         this.speed = speed;
