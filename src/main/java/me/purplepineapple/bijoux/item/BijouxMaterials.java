@@ -1,6 +1,6 @@
-package me.purplepineapple.bijoux.common.item;
+package me.purplepineapple.bijoux.item;
 
-import me.purplepineapple.bijoux.core.registry.RegisterItems;
+import me.purplepineapple.bijoux.registry.BijouxItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
@@ -11,9 +11,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ArmorMaterials implements ArmorMaterial {
+public enum BijouxMaterials implements ArmorMaterial {
     RUBY("ruby", 35, new int[]{3, 6, 8, 3}, 25, SoundEvents.ARMOR_EQUIP_GENERIC, 2.5F, 0.0F, () -> {
-        return Ingredient.of(new ItemStack(RegisterItems.RUBY.get()));
+        return Ingredient.of(new ItemStack(BijouxItems.RUBY.get()));
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
@@ -26,7 +26,7 @@ public enum ArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-    private ArmorMaterials(String name, int durabilityMultiplier, int[] slotProtection, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    private BijouxMaterials(String name, int durabilityMultiplier, int[] slotProtection, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.slotProtection = slotProtection;
