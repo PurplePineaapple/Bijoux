@@ -12,7 +12,7 @@ version="${file.jarVersion}" #mandatory
 
 displayName="Bijoux Mod" #mandatory
 
-updateJSONURL="https://github.com/PurplePineaapple/Bijoux/blob/main/src/main/resources/META-INF/updateChecker.json" #optional
+updateJSONURL="https://raw.githubusercontent.com/PurplePineaapple/Bijoux/main/src/main/resources/META-INF/updateChecker.json" #optional
 
 displayURL="https://github.com/PurplePineaapple/Bijoux" #optional
 
