@@ -1,18 +1,21 @@
 {
-  "block.bijoux.aquamarine_ore": "Aquamarine Ore",
   "block.bijoux.aquamarine_block": "Aquamarine Block",
+  "block.bijoux.aquamarine_ore": "Aquamarine Ore",
   "block.bijoux.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "block.bijoux.opal_ore": "Opal Ore",
   "block.bijoux.opal_block": "Opal Block",
-  "block.bijoux.platinum_ore": "Platinum Ore",
+  "block.bijoux.opal_ore": "Opal Ore",
   "block.bijoux.platinum_block": "Platinum Block",
-  "block.bijoux.rose_quartz_ore": "Rose Quartz Ore",
+  "block.bijoux.platinum_ore": "Platinum Ore",
   "block.bijoux.rose_quartz_block": "Rose Quartz Block",
-  "block.bijoux.ruby_ore": "Ruby Ore",
+  "block.bijoux.rose_quartz_ore": "Rose Quartz Ore",
   "block.bijoux.ruby_block": "Ruby Block",
-  "block.bijoux.topaz_ore": "Topaz Ore",
+  "block.bijoux.ruby_ore": "Ruby Ore",
   "block.bijoux.topaz_block": "Topaz Block",
+  "block.bijoux.topaz_ore": "Topaz Ore",
+  "entity.bijoux.clam": "Clam",
+  "entity.minecraft.villager.bijoux.geologist": "Geologist",
   "item.bijoux.aquamarine": "Aquamarine",
+  "item.bijoux.clam_spawn_egg": "Clam Spawn Egg",
   "item.bijoux.opal": "Opal",
   "item.bijoux.pearl": "Pearl",
   "item.bijoux.platinum_bar": "Platinum Bar",
@@ -36,9 +39,6 @@
   "itemGroup.blocks": "Bijoux Blocks",
   "itemGroup.materials": "Bijoux Materials",
   "itemGroup.tools_armor": "Bijoux Tools/Armor",
-  "pack.bijoux.pack_mcmeta": "Bijoux mod pack",
-  "entity.minecraft.villager.bijoux.geologist": "Geologist",
-  "item.bijoux.clam_spawn_egg": "Clam Spawn Egg",
-  "entity.bijoux.clam": "Clam"
+  "pack.bijoux.pack_mcmeta": "Bijoux mod pack"
 
 }

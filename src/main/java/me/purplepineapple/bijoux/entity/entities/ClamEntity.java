@@ -34,6 +34,7 @@ public class ClamEntity extends WaterAnimal {
         return 3 + this.random.nextInt(5);
     }
 
+    // Sound events are placeholders
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
