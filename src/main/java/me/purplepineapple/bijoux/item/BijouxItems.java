@@ -1,11 +1,14 @@
-package me.purplepineapple.bijoux.registry;
+package me.purplepineapple.bijoux.item;
 
 import me.purplepineapple.bijoux.Bijoux;
+import me.purplepineapple.bijoux.entity.BijouxEntityTypes;
 import me.purplepineapple.bijoux.item.BijouxMaterials;
 import me.purplepineapple.bijoux.item.BijouxTiers;
 import me.purplepineapple.bijoux.item.BijouxTabs;
+import me.purplepineapple.bijoux.item.items.BijouxSpawnEggItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -61,6 +64,9 @@ public class BijouxItems {
 
     public static final RegistryObject<Item> PLATINUM_BAR = register("platinum_bar", () ->
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
+
+    public static final RegistryObject<Item> CLAM_SPAWN_EGG = register("clam_spawn_egg", () ->
+            new BijouxSpawnEggItem(BijouxEntityTypes.CLAM, 0x6119264, 0x6445384));
 
 
 

@@ -35,6 +35,10 @@
   "item.bijoux.topaz": "Topaz",
   "itemGroup.blocks": "Bijoux Blocks",
   "itemGroup.materials": "Bijoux Materials",
-  "itemGroup.tools_armor": "Bijoux Tools/Armor"
+  "itemGroup.tools_armor": "Bijoux Tools/Armor",
+  "pack.bijoux.pack_mcmeta": "Bijoux mod pack",
+  "entity.minecraft.villager.bijoux.geologist": "Geologist",
+  "item.bijoux.clam_spawn_egg": "Clam Spawn Egg",
+  "entity.bijoux.clam": "Clam"
 
 }

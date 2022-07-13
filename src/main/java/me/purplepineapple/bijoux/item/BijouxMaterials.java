@@ -1,6 +1,5 @@
 package me.purplepineapple.bijoux.item;
 
-import me.purplepineapple.bijoux.registry.BijouxItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;

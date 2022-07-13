@@ -1,6 +1,10 @@
 {
     "pack": {
-        "description": "Bijoux resources",
-        "pack_format": 9
+        "pack_format": 9,
+        "description": {
+            "translate": "pack.bijoux.pack_mcmeta",
+            "color": "dark_red",
+            "bold": true
+        }
     }
 }

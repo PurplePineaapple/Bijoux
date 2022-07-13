@@ -1,6 +1,5 @@
 package me.purplepineapple.bijoux.item;
 
-import me.purplepineapple.bijoux.registry.BijouxItems;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;

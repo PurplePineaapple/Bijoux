@@ -1,7 +1,6 @@
 package me.purplepineapple.bijoux.item;
 
-import me.purplepineapple.bijoux.registry.BijouxBlocks;
-import me.purplepineapple.bijoux.registry.BijouxItems;
+import me.purplepineapple.bijoux.block.BijouxBlocks;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
