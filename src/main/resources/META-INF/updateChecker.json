@@ -1,5 +1,9 @@
 {
   "homepage": "https://github.com/PurplePineaapple/Bijoux",
+  "1.18.2": {
+    "1.1-1.18.2-DEV": "https://github.com/PurplePineaapple/Bijoux/blob/main/CHANGELOG.md#11-1182-dev---2022-07-08---minor-fixes",
+    "1.0-1.18.2-DEV": "https://github.com/PurplePineaapple/Bijoux/blob/main/CHANGELOG.md#10-1182-dev---2022-07-08"
+  },
   "promos": {
     "1.18.2-latest": "none",
     "1.18.2-recommended": "1.1-1.18.2-DEV"
