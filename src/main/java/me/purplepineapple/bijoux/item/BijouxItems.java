@@ -66,7 +66,7 @@ public class BijouxItems {
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
 
     public static final RegistryObject<Item> CLAM_SPAWN_EGG = register("clam_spawn_egg", () ->
-            new BijouxSpawnEggItem(BijouxEntityTypes.CLAM, 0x6119264, 0x6445384));
+            new BijouxSpawnEggItem(BijouxEntityTypes.CLAM, 6119264, 6445384));
 
 
 
