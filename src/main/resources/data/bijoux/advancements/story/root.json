@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "bijoux:ruby_block"
+    },
+    "title": {
+      "translate": "advancements.bijoux.story.root.title",
+      "color": "dark_red",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancements.bijoux.story.root.desc"
+    },
+    "background": "bijoux:textures/blocks/opal_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "inv_change": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}
