@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
+    "bijoux:aquamarine_block",
     "bijoux:aquamarine_ore",
+    "bijoux:deepslate_ruby_ore",
+    "bijoux:opal_block",
+    "bijoux:opal_ore",
+    "bijoux:platinum_block",
     "bijoux:platinum_ore",
+    "bijoux:rock_tumbler",
+    "bijoux:rose_quartz_block",
     "bijoux:rose_quartz_ore",
-    "bijoux:ruby_ore"
+    "bijoux:ruby_block",
+    "bijoux:ruby_ore",
+    "bijoux:sapphire_block",
+    "bijoux:sapphire_ore",
+    "bijoux:topaz_block",
+    "bijoux:topaz_ore"
   ]
 }

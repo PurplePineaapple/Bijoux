@@ -1,8 +1,11 @@
 {
   "replace": false,
   "values": [
+    "bijoux:platinum_block",
     "bijoux:platinum_ore",
+    "bijoux:rose_quartz_block",
     "bijoux:rose_quartz_ore",
+    "bijoux:ruby_block",
     "bijoux:ruby_ore"
   ]
 }

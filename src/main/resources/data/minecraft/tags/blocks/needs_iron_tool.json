@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "bijoux:aquamarine_block",
     "bijoux:aquamarine_ore"
   ]
 }
