@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bijoux:ruby_sword",
+    "bijoux:ruby_pickaxe",
+    "bijoux:ruby_axe",
+    "bijoux:ruby_shovel",
+    "bijoux:ruby_hoe"
+  ]
+}
