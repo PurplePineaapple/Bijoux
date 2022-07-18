@@ -26,6 +26,8 @@ public class BijouxItems {
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
     public static final RegistryObject<Item> RAW_RUBY = register("raw_ruby", () ->
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
+    public static final RegistryObject<Item> RAW_SAPPHIRE = register("raw_sapphire", () ->
+            new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
     public static final RegistryObject<Item> RAW_TOPAZ = register("raw_topaz", () ->
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
 
@@ -38,6 +40,8 @@ public class BijouxItems {
     public static final RegistryObject<Item> ROSE_QUARTZ = register("rose_quartz", () ->
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
     public static final RegistryObject<Item> RUBY = register("ruby", () ->
+            new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
+    public static final RegistryObject<Item> SAPPHIRE = register("sapphire", () ->
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));
     public static final RegistryObject<Item> TOPAZ = register("topaz", () ->
             new Item(new Item.Properties().tab(BijouxTabs.MATERIALS)));

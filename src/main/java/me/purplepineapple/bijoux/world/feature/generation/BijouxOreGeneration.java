@@ -16,14 +16,10 @@ public class BijouxOreGeneration {
 
         if(event.getCategory() == Biome.BiomeCategory.OCEAN) {
             base.add(BijouxPlacedFeatures.AQUAMARINE_ORE_PLACED);
-        }
-        base.add(BijouxPlacedFeatures.RUBY_ORE_PLACED);
-    }
-
-    public static void generateOceanOres(final BiomeLoadingEvent event) {
-        List<Holder<PlacedFeature>> base = event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
-        if(event.getCategory() == Biome.BiomeCategory.OCEAN) {
-            base.add(BijouxPlacedFeatures.AQUAMARINE_ORE_PLACED);
+        } else if(event.getCategory() == Biome.BiomeCategory.THEEND) {
+            base.add(BijouxPlacedFeatures.SAPPHIRE_ORE_PLACED);
+        } else {
+            base.add(BijouxPlacedFeatures.RUBY_ORE_PLACED);
         }
     }
 }

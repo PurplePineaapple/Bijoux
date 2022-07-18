@@ -14,4 +14,8 @@ public class BijouxPlacedFeatures {
     public static final Holder<PlacedFeature> AQUAMARINE_ORE_PLACED = PlacementUtils.register("aquamarine_ore_placed",
             BijouxConfiguredFeatures.AQUAMARINE_ORE_GEN, BijouxOrePlacements.commonOrePlacement(15,
                     HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(70), VerticalAnchor.aboveBottom(109))));
+
+    public static final Holder<PlacedFeature> SAPPHIRE_ORE_PLACED = PlacementUtils.register("sapphire_ore_placed",
+            BijouxConfiguredFeatures.SAPPHIRE_ORE_GEN, BijouxOrePlacements.commonOrePlacement(10,
+                    HeightRangePlacement.uniform(VerticalAnchor.BOTTOM, VerticalAnchor.aboveBottom(30))));
 }

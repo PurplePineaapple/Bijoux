@@ -14,5 +14,10 @@ public class BijouxEntityTypes {
             Bijoux.MOD_ID);
 
     public static final RegistryObject<EntityType<ClamEntity>> CLAM = ENTITY_TYPES.register("clam", () ->
-            EntityType.Builder.of(ClamEntity::new, MobCategory.WATER_CREATURE).sized(1F, 0.5F).build(new ResourceLocation(Bijoux.MOD_ID, "clam").toString()));
+            EntityType.Builder.of(ClamEntity::new, MobCategory.WATER_CREATURE).sized(1F, 0.5F)
+                    .build(new ResourceLocation(Bijoux.MOD_ID, "clam").toString()));
+
+
+
+
 }

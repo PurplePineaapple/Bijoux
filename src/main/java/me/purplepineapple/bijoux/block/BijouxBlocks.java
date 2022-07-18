@@ -50,7 +50,12 @@ public class BijouxBlocks {
                             .strength(7.0F, 3.0F).sound(SoundType.METAL)),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(BijouxTabs.BLOCKS)));
 
-    public static final RegistryObject<Block> TOPAZ_BLOCK = register("topaz_block", () -> // 8
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = register("sapphire_block", () ->
+                    new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL).requiresCorrectToolForDrops()
+                            .strength(7.0F, 3.0F).sound(SoundType.METAL)),
+            object -> () -> new BlockItem(object.get(), new Item.Properties().tab(BijouxTabs.BLOCKS)));
+
+    public static final RegistryObject<Block> TOPAZ_BLOCK = register("topaz_block", () ->
                     new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL).requiresCorrectToolForDrops()
                             .strength(6.0F, 3.0F).sound(SoundType.METAL)),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(BijouxTabs.BLOCKS)));
@@ -82,6 +87,11 @@ public class BijouxBlocks {
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(BijouxTabs.BLOCKS)));
 
     public static final RegistryObject<Block> RUBY_ORE = register("ruby_ore", () ->
+            new OreBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE).requiresCorrectToolForDrops()
+                    .strength(9.0F, 3.0F).sound(SoundType.STONE), UniformInt.of(3, 7)),
+            object -> () -> new BlockItem(object.get(), new Item.Properties().tab(BijouxTabs.BLOCKS)));
+
+    public static final RegistryObject<Block> SAPPHIRE_ORE = register("sapphire_ore", () ->
             new OreBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE).requiresCorrectToolForDrops()
                     .strength(9.0F, 3.0F).sound(SoundType.STONE), UniformInt.of(3, 7)),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(BijouxTabs.BLOCKS)));
