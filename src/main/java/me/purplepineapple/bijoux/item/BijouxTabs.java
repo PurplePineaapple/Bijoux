@@ -36,6 +36,19 @@ public class BijouxTabs {
                 output.accept(BijouxItems.SAPPHIRE.get());
                 output.accept(BijouxItems.TOPAZ.get());
 
+                // RUBY TOOLS
+                output.accept(BijouxItems.RUBY_SWORD.get());
+                output.accept(BijouxItems.RUBY_PICKAXE.get());
+                output.accept(BijouxItems.RUBY_AXE.get());
+                output.accept(BijouxItems.RUBY_SHOVEL.get());
+                output.accept(BijouxItems.RUBY_HOE.get());
+
+                // RUBY ARMOR
+                output.accept(BijouxItems.RUBY_HELMET.get());
+                output.accept(BijouxItems.RUBY_CHESTPLATE.get());
+                output.accept(BijouxItems.RUBY_LEGGINGS.get());
+                output.accept(BijouxItems.RUBY_BOOTS.get());
+
                 // MISC
                 output.accept(BijouxItems.PLATINUM_BAR.get());})
                     .build());
