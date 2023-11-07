@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "bijoux:aquamarine_block",
+    "bijoux:opal_block",
+    "bijoux:platinum_block",
+    "bijoux:rose_quartz_block",
+    "bijoux:ruby_block",
+    "bijoux:sapphire_block",
+    "bijoux:topaz_block"
+  ]
+}

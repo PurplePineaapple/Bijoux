@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bijoux:opal"
+    }
+  },
+  "result": {
+    "item": "bijoux:opal_block"
+  }
+}

@@ -1,4 +1,11 @@
 {
+  "block.bijoux.aquamarine_block": "Aquamarine Block",
+  "block.bijoux.opal_block": "Opal Block",
+  "block.bijoux.platinum_block": "Platinum Block",
+  "block.bijoux.rose_quartz_block": "Rose Quartz Block",
+  "block.bijoux.ruby_block": "Ruby Block",
+  "block.bijoux.sapphire_block": "Sapphire Block",
+  "block.bijoux.topaz_block": "Topaz Block",
   "gui.bijoux.bijoux_tab": "Bijoux Mod",
   "item.bijoux.aquamarine": "Aquamarine",
   "item.bijoux.opal": "Opal",

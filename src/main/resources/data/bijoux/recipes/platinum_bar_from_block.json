@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bijoux:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "bijoux:platinum_bar",
+    "count": 9
+  }
+}

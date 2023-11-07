@@ -1,6 +1,7 @@
 package me.purplepineapple.bijoux.item;
 
 import me.purplepineapple.bijoux.Bijoux;
+import me.purplepineapple.bijoux.block.BijouxBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,7 +20,8 @@ public class BijouxTabs {
                     .icon(() -> new ItemStack(BijouxItems.RUBY.get()))
                     .title(Component.translatable("gui.bijoux.bijoux_tab"))
                     .displayItems((params, output) -> {
-                //RAW GEMSTONES
+                 // ITEMS
+                    //RAW GEMSTONES
                 output.accept(BijouxItems.RAW_AQUAMARINE.get());
                 output.accept(BijouxItems.RAW_OPAL.get());
                 output.accept(BijouxItems.RAW_ROSE_QUARTZ.get());
@@ -27,7 +29,7 @@ public class BijouxTabs {
                 output.accept(BijouxItems.RAW_SAPPHIRE.get());
                 output.accept(BijouxItems.RAW_TOPAZ.get());
 
-                // GEMSTONES
+                    // GEMSTONES
                 output.accept(BijouxItems.AQUAMARINE.get());
                 output.accept(BijouxItems.OPAL.get());
                 output.accept(BijouxItems.PEARL.get());
@@ -36,21 +38,35 @@ public class BijouxTabs {
                 output.accept(BijouxItems.SAPPHIRE.get());
                 output.accept(BijouxItems.TOPAZ.get());
 
-                // RUBY TOOLS
+                    // RUBY TOOLS
                 output.accept(BijouxItems.RUBY_SWORD.get());
                 output.accept(BijouxItems.RUBY_PICKAXE.get());
                 output.accept(BijouxItems.RUBY_AXE.get());
                 output.accept(BijouxItems.RUBY_SHOVEL.get());
                 output.accept(BijouxItems.RUBY_HOE.get());
 
-                // RUBY ARMOR
+                    // RUBY ARMOR
                 output.accept(BijouxItems.RUBY_HELMET.get());
                 output.accept(BijouxItems.RUBY_CHESTPLATE.get());
                 output.accept(BijouxItems.RUBY_LEGGINGS.get());
                 output.accept(BijouxItems.RUBY_BOOTS.get());
 
                 // MISC
-                output.accept(BijouxItems.PLATINUM_BAR.get());})
+                output.accept(BijouxItems.PLATINUM_BAR.get());
+
+                // BLOCKS
+
+                        // GEM BLOCKS
+                output.accept(BijouxBlocks.AQUAMARINE_BLOCK.get());
+                output.accept(BijouxBlocks.OPAL_BLOCK.get());
+                output.accept(BijouxBlocks.PLATINUM_BLOCK.get());
+                output.accept(BijouxBlocks.ROSE_QUARTZ_BLOCK.get());
+                output.accept(BijouxBlocks.RUBY_BLOCK.get());
+                output.accept(BijouxBlocks.SAPPHIRE_BLOCK.get());
+                output.accept(BijouxBlocks.TOPAZ_BLOCK.get());
+
+
+                    })
                     .build());
 
 
